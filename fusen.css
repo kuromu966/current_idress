@@ -1,0 +1,473 @@
+/*
+div{
+  @include inline-block;
+  @include border-radius(4px, 4px);
+  @include opacity(.7);
+}
+*/
+/***********************************************************************
+壁紙
+***********************************************************************/
+/* line 59, ../scss/fusen.css.scss */
+.bg_green {
+  background-image: url("../img/green_cup.png");
+  width: 70%;
+  height: 100px;
+  margin: 40px auto;
+  border-radius: 10px;
+  font-size: 16px;
+  padding: 10px 30px 10px 30px;
+  border-radius: 5px;
+  position: relative;
+}
+/* line 46, ../scss/fusen.css.scss */
+.bg_green h2 {
+  text-align: center;
+  position: relative;
+  top: 40px;
+}
+/* line 51, ../scss/fusen.css.scss */
+.bg_green h3 {
+  text-align: center;
+  position: relative;
+  top: 20px;
+}
+
+/* line 67, ../scss/fusen.css.scss */
+.bg_paper {
+  background-image: url("../img/paper.png");
+  width: 40%;
+  height: 60px;
+  left: -40%;
+  margin: 20px auto;
+}
+/* line 46, ../scss/fusen.css.scss */
+.bg_paper h2 {
+  text-align: center;
+  position: relative;
+  top: 40px;
+}
+/* line 51, ../scss/fusen.css.scss */
+.bg_paper h3 {
+  text-align: center;
+  position: relative;
+  top: 20px;
+}
+
+/* line 70, ../scss/fusen.css.scss */
+.bg_white3 {
+  background: white;
+  width: 40%;
+  height: 30px;
+  left: -40%;
+  margin: 20px auto;
+}
+/* line 39, ../scss/fusen.css.scss */
+.bg_white3 font {
+  text-align: center;
+  position: relative;
+  top: 20px;
+}
+/* line 46, ../scss/fusen.css.scss */
+.bg_white3 h2 {
+  text-align: center;
+  position: relative;
+  top: 40px;
+}
+/* line 51, ../scss/fusen.css.scss */
+.bg_white3 h3 {
+  text-align: center;
+  position: relative;
+  top: 20px;
+}
+
+/***********************************************************************
+付箋(大)
+***********************************************************************/
+/* line 102, ../scss/fusen.css.scss */
+.fu_paper {
+  background-image: url("../img/lined_paper.png");
+  margin: 0 auto;
+  width: 80%;
+  font-size: 14px;
+  text-shadow: -1px 1px 0 rgba(255, 255, 255, 0.4);
+  border-radius: 5px;
+  padding: 10px 30px 10px 10px;
+  box-shadow: 0 2px 3px 0px #777;
+}
+/* line 94, ../scss/fusen.css.scss */
+.fu_paper left {
+  transform: rotate(-1deg);
+}
+/* line 97, ../scss/fusen.css.scss */
+.fu_paper right {
+  transform: rotate(1deg);
+}
+
+/* line 105, ../scss/fusen.css.scss */
+.fu_paper2 {
+  background-image: url("../img/ricepaper.png");
+  margin: 0 auto;
+  width: 80%;
+  font-size: 14px;
+  text-shadow: -1px 1px 0 rgba(255, 255, 255, 0.4);
+  border-radius: 5px;
+  padding: 10px 30px 10px 10px;
+  box-shadow: 0 2px 3px 0px #777;
+}
+/* line 94, ../scss/fusen.css.scss */
+.fu_paper2 left {
+  transform: rotate(-1deg);
+}
+/* line 97, ../scss/fusen.css.scss */
+.fu_paper2 right {
+  transform: rotate(1deg);
+}
+
+/* line 108, ../scss/fusen.css.scss */
+.fu_paper3 {
+  background-image: url("../img/matome/white_paperboard.png");
+  margin: 0 auto;
+  width: 80%;
+  font-size: 14px;
+  text-shadow: -1px 1px 0 rgba(255, 255, 255, 0.4);
+  border-radius: 5px;
+  padding: 10px 30px 10px 10px;
+  box-shadow: 0 2px 3px 0px #777;
+}
+/* line 94, ../scss/fusen.css.scss */
+.fu_paper3 left {
+  transform: rotate(-1deg);
+}
+/* line 97, ../scss/fusen.css.scss */
+.fu_paper3 right {
+  transform: rotate(1deg);
+}
+
+/* line 111, ../scss/fusen.css.scss */
+.fu_pink {
+  background: pink;
+  margin: 0 auto;
+  width: 80%;
+  font-size: 14px;
+  text-shadow: -1px 1px 0 rgba(255, 255, 255, 0.4);
+  border-radius: 5px;
+  padding: 10px 30px 10px 10px;
+  box-shadow: 0 2px 3px 0px #777;
+}
+/* line 94, ../scss/fusen.css.scss */
+.fu_pink left {
+  transform: rotate(-1deg);
+}
+/* line 97, ../scss/fusen.css.scss */
+.fu_pink right {
+  transform: rotate(1deg);
+}
+
+/* line 114, ../scss/fusen.css.scss */
+.fu_DarkSeaGreen {
+  background: darkseagreen;
+  margin: 0 auto;
+  width: 80%;
+  font-size: 14px;
+  text-shadow: -1px 1px 0 rgba(255, 255, 255, 0.4);
+  border-radius: 5px;
+  padding: 10px 30px 10px 10px;
+  box-shadow: 0 2px 3px 0px #777;
+}
+/* line 94, ../scss/fusen.css.scss */
+.fu_DarkSeaGreen left {
+  transform: rotate(-1deg);
+}
+/* line 97, ../scss/fusen.css.scss */
+.fu_DarkSeaGreen right {
+  transform: rotate(1deg);
+}
+
+/* line 117, ../scss/fusen.css.scss */
+.fu_Khaki {
+  background: khaki;
+  margin: 0 auto;
+  width: 80%;
+  font-size: 14px;
+  text-shadow: -1px 1px 0 rgba(255, 255, 255, 0.4);
+  border-radius: 5px;
+  padding: 10px 30px 10px 10px;
+  box-shadow: 0 2px 3px 0px #777;
+}
+/* line 94, ../scss/fusen.css.scss */
+.fu_Khaki left {
+  transform: rotate(-1deg);
+}
+/* line 97, ../scss/fusen.css.scss */
+.fu_Khaki right {
+  transform: rotate(1deg);
+}
+
+/* line 120, ../scss/fusen.css.scss */
+.fu_Lavender {
+  background: lavender;
+  margin: 0 auto;
+  width: 80%;
+  font-size: 14px;
+  text-shadow: -1px 1px 0 rgba(255, 255, 255, 0.4);
+  border-radius: 5px;
+  padding: 10px 30px 10px 10px;
+  box-shadow: 0 2px 3px 0px #777;
+}
+/* line 94, ../scss/fusen.css.scss */
+.fu_Lavender left {
+  transform: rotate(-1deg);
+}
+/* line 97, ../scss/fusen.css.scss */
+.fu_Lavender right {
+  transform: rotate(1deg);
+}
+
+/* line 123, ../scss/fusen.css.scss */
+.fu_MistyRose {
+  background: mistyrose;
+  margin: 0 auto;
+  width: 80%;
+  font-size: 14px;
+  text-shadow: -1px 1px 0 rgba(255, 255, 255, 0.4);
+  border-radius: 5px;
+  padding: 10px 30px 10px 10px;
+  box-shadow: 0 2px 3px 0px #777;
+}
+/* line 94, ../scss/fusen.css.scss */
+.fu_MistyRose left {
+  transform: rotate(-1deg);
+}
+/* line 97, ../scss/fusen.css.scss */
+.fu_MistyRose right {
+  transform: rotate(1deg);
+}
+
+/* line 126, ../scss/fusen.css.scss */
+.fu_PeachPuff {
+  background: peachpuff;
+  margin: 0 auto;
+  width: 80%;
+  font-size: 14px;
+  text-shadow: -1px 1px 0 rgba(255, 255, 255, 0.4);
+  border-radius: 5px;
+  padding: 10px 30px 10px 10px;
+  box-shadow: 0 2px 3px 0px #777;
+}
+/* line 94, ../scss/fusen.css.scss */
+.fu_PeachPuff left {
+  transform: rotate(-1deg);
+}
+/* line 97, ../scss/fusen.css.scss */
+.fu_PeachPuff right {
+  transform: rotate(1deg);
+}
+
+/* line 129, ../scss/fusen.css.scss */
+.fu_Bisque {
+  background: bisque;
+  margin: 0 auto;
+  width: 80%;
+  font-size: 14px;
+  text-shadow: -1px 1px 0 rgba(255, 255, 255, 0.4);
+  border-radius: 5px;
+  padding: 10px 30px 10px 10px;
+  box-shadow: 0 2px 3px 0px #777;
+}
+/* line 94, ../scss/fusen.css.scss */
+.fu_Bisque left {
+  transform: rotate(-1deg);
+}
+/* line 97, ../scss/fusen.css.scss */
+.fu_Bisque right {
+  transform: rotate(1deg);
+}
+
+/* line 132, ../scss/fusen.css.scss */
+.fu_AliceBlue {
+  background: aliceblue;
+  margin: 0 auto;
+  width: 80%;
+  font-size: 14px;
+  text-shadow: -1px 1px 0 rgba(255, 255, 255, 0.4);
+  border-radius: 5px;
+  padding: 10px 30px 10px 10px;
+  box-shadow: 0 2px 3px 0px #777;
+}
+/* line 94, ../scss/fusen.css.scss */
+.fu_AliceBlue left {
+  transform: rotate(-1deg);
+}
+/* line 97, ../scss/fusen.css.scss */
+.fu_AliceBlue right {
+  transform: rotate(1deg);
+}
+
+/* line 135, ../scss/fusen.css.scss */
+.fu_GhostWhite {
+  background: ghostwhite;
+  margin: 0 auto;
+  width: 80%;
+  font-size: 14px;
+  text-shadow: -1px 1px 0 rgba(255, 255, 255, 0.4);
+  border-radius: 5px;
+  padding: 10px 30px 10px 10px;
+  box-shadow: 0 2px 3px 0px #777;
+}
+/* line 94, ../scss/fusen.css.scss */
+.fu_GhostWhite left {
+  transform: rotate(-1deg);
+}
+/* line 97, ../scss/fusen.css.scss */
+.fu_GhostWhite right {
+  transform: rotate(1deg);
+}
+
+/***********************************************************************
+付箋(タイトル)
+***********************************************************************/
+/* line 181, ../scss/fusen.css.scss */
+.title_white {
+  width: 70%;
+  height: 50px;
+  background: #FFF;
+  margin: 40px auto;
+  padding: 10px;
+  text-align: center;
+  font-size: 18px;
+  text-shadow: 1px -1px 0 rgba(0, 0, 0, 0.1);
+  background: "white";
+  position: relative;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+}
+/* line 167, ../scss/fusen.css.scss */
+.title_white:before, .title_white:after {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.8);
+  top: 50%;
+  bottom: 0;
+  left: 10px;
+  right: 10px;
+  border-radius: 100px / 10px;
+}
+
+/***********************************************************************
+付箋(小)
+***********************************************************************/
+/* line 221, ../scss/fusen.css.scss */
+.fus_red {
+  width: 40%;
+  height: 30px;
+  left: -40%;
+  margin: 20px auto;
+  background: red;
+  position: relative;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1);
+}
+/* line 208, ../scss/fusen.css.scss */
+.fus_red:before, .fus_red:after {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.9);
+  border-radius: 100px / 20px;
+  top: 50%;
+  bottom: 0;
+  left: 10px;
+  right: 10px;
+}
+
+/* line 224, ../scss/fusen.css.scss */
+.fus_green {
+  width: 40%;
+  height: 30px;
+  left: -40%;
+  margin: 20px auto;
+  background: green;
+  position: relative;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1);
+}
+/* line 208, ../scss/fusen.css.scss */
+.fus_green:before, .fus_green:after {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.9);
+  border-radius: 100px / 20px;
+  top: 50%;
+  bottom: 0;
+  left: 10px;
+  right: 10px;
+}
+
+/* line 227, ../scss/fusen.css.scss */
+.fus_blue {
+  width: 40%;
+  height: 30px;
+  left: -40%;
+  margin: 20px auto;
+  background: blue;
+  position: relative;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1);
+}
+/* line 208, ../scss/fusen.css.scss */
+.fus_blue:before, .fus_blue:after {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.9);
+  border-radius: 100px / 20px;
+  top: 50%;
+  bottom: 0;
+  left: 10px;
+  right: 10px;
+}
+
+/* line 230, ../scss/fusen.css.scss */
+.fus_yellow {
+  width: 40%;
+  height: 30px;
+  left: -40%;
+  margin: 20px auto;
+  background: yellow;
+  position: relative;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1);
+}
+/* line 208, ../scss/fusen.css.scss */
+.fus_yellow:before, .fus_yellow:after {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.9);
+  border-radius: 100px / 20px;
+  top: 50%;
+  bottom: 0;
+  left: 10px;
+  right: 10px;
+}
+
+/* line 233, ../scss/fusen.css.scss */
+.fus_Fuchsia {
+  width: 40%;
+  height: 30px;
+  left: -40%;
+  margin: 20px auto;
+  background: magenta;
+  position: relative;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1);
+}
+/* line 208, ../scss/fusen.css.scss */
+.fus_Fuchsia:before, .fus_Fuchsia:after {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.9);
+  border-radius: 100px / 20px;
+  top: 50%;
+  bottom: 0;
+  left: 10px;
+  right: 10px;
+}
