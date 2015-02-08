@@ -10,7 +10,7 @@ div{
 ***********************************************************************/
 /* line 59, ../scss/fusen.css.scss */
 .bg_green {
-  background-image: url("img/green_cup.png");
+  background-image: url("../img/green_cup.png");
   width: 70%;
   height: 100px;
   margin: 40px auto;
@@ -35,7 +35,7 @@ div{
 
 /* line 67, ../scss/fusen.css.scss */
 .bg_paper {
-  background-image: url("img/paper.png");
+  background-image: url("../img/paper.png");
   width: 40%;
   height: 60px;
   left: -40%;
@@ -86,7 +86,7 @@ div{
 ***********************************************************************/
 /* line 102, ../scss/fusen.css.scss */
 .fu_paper {
-  background-image: url("img/lined_paper.png");
+  background-image: url("../img/lined_paper.png");
   margin: 0 auto;
   width: 80%;
   font-size: 14px;
@@ -106,7 +106,7 @@ div{
 
 /* line 105, ../scss/fusen.css.scss */
 .fu_paper2 {
-  background-image: url("img/ricepaper.png");
+  background-image: url("../img/ricepaper.png");
   margin: 0 auto;
   width: 80%;
   font-size: 14px;
@@ -126,7 +126,7 @@ div{
 
 /* line 108, ../scss/fusen.css.scss */
 .fu_paper3 {
-  background-image: url("img/matome/white_paperboard.png");
+  background-image: url("../img/matome/white_paperboard.png");
   margin: 0 auto;
   width: 80%;
   font-size: 14px;
