@@ -11,7 +11,7 @@ div{
 body
 ****************************************************************************************/
 body{
-	background:url('../img/matome/bg_craftpaper04.jpg')
+	background:url('img/matome/bg_craftpaper04.jpg')
 }
 
 /****************************************************************************************
@@ -81,7 +81,7 @@ img{
 	}
 	.complete{
 		margin:0 auto;
-		background-image:url('../img/comp6.png');
+		background-image:url('img/comp6.png');
 		background-position:right;
 		background-repeat:no-repeat;
 		background-size:contain;
@@ -130,7 +130,7 @@ main box
 .box{
 	width:70%;
 	height:100px;
-    background-image:url('../img/green_cup.png');
+    background-image:url('img/green_cup.png');
 	margin:40px auto;
 	border-radius:10px;
 	
@@ -146,7 +146,7 @@ main box
 	width:40%;
 	height:60px;
 	left:-40%;
-    background-image:url('../img/paper.png');
+    background-image:url('img/paper.png');
 	margin:20px auto;
 	h3{
 		text-align:center;
@@ -173,7 +173,7 @@ sub box
 .boxsub{
 	width:340px;
 	height:125px;
-    background-image:url('../img/matome/006-1.png');
+    background-image:url('img/matome/006-1.png');
 	background-repeat: no-repeat;
 	margin:0 auto;
 	position:relative;
@@ -199,7 +199,7 @@ sub box
 	text-align:center;
 	width:250px;
 	height:92px;
-    background-image:url('../img/matome/006-3.png');
+    background-image:url('img/matome/006-3.png');
 	background-repeat: no-repeat;
 	margin:0 auto;
 	position:relative;
@@ -246,7 +246,7 @@ color box
 		font-size:16px;
 		padding:10px 30px 10px 30px;
 		border-radius:5px;
-		background-image:url('../img/green_cup.png');
+		background-image:url('img/green_cup.png');
 		position:relative;
 		#-webkit-box-shadow:10px 10px 10px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
 		#-moz-box-shadow:10px 10px 10px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
@@ -301,7 +301,7 @@ effect
 ****************************************************************************************/
 .paper {
 	font-size:14px;
-	background-image:url('../img/lined_paper.png');
+	background-image:url('img/lined_paper.png');
 	border-radius:5px;
 	padding:10px 30px 10px 10px;
 	box-shadow: 0 2px 3px 0px #777;
@@ -315,7 +315,7 @@ effect
 
 .paper2 {
 	font-size:14px;
-	background-image:url('../img/ricepaper.png');
+	background-image:url('img/ricepaper.png');
 	border-radius:5px;
 	padding:10px 30px 10px 10px;
 	box-shadow: 0 2px 3px 0px #777;
@@ -329,7 +329,7 @@ effect
 
 .paper3 {
 	font-size:14px;
-	background-image:url('../img/matome/white_paperboard.png');
+	background-image:url('img/matome/white_paperboard.png');
 	border-radius:5px;
 	padding:10px 30px 10px 10px;
 	box-shadow: 0 2px 3px 0px #777;
@@ -356,7 +356,7 @@ char{
 }
 comment{
 	div{
-		background-image:url('../img/lined_paper.png');
+		background-image:url('img/lined_paper.png');
 		font-size:18px;
 		margin:0 100px 0 100px;
 		padding:5px 5px 5px 5px;
